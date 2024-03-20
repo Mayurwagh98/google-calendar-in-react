@@ -5,6 +5,21 @@ function App() {
   const gapi = window.gapi;
   const google = window.google;
 
+  // const generateRandomMeetLink = () => {
+  //   const chars = "abcdefghijklmnopqrstuvwxyz";
+  //   let randomString = "";
+  //   for (let i = 0; i < 3; i++) {
+  //     for (let j = 0; j < 3; j++) {
+  //       randomString += chars.charAt(Math.floor(Math.random() * chars.length));
+  //     }
+  //     if (i < 2) {
+  //       randomString += "-";
+  //     }
+  //   }
+  //   const meetLink = `https://meet.google.com/${randomString}`;
+  //   return meetLink;
+  // };
+
   const CLIENT_ID =
     "943398987827-ar988bm8bo46imepvpfo5avfr9htfi86.apps.googleusercontent.com";
   const API_KEY = "AIzaSyCps32BVvEsQYoLbndc7fDQGoVkxtMtkss";
