@@ -21,8 +21,8 @@ function App() {
   // };
 
   const CLIENT_ID =
-    "943398987827-ar988bm8bo46imepvpfo5avfr9htfi86.apps.googleusercontent.com";
-  const API_KEY = "AIzaSyCps32BVvEsQYoLbndc7fDQGoVkxtMtkss";
+    "";
+  const API_KEY = "";
   const DISCOVERY_DOC =
     "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest";
   const SCOPES = "https://www.googleapis.com/auth/calendar";
